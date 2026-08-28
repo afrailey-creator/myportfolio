@@ -612,12 +612,7 @@ body:not(.user-is-tabbing) a:focus {
     } 
 }
 
-.header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/mountain.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 .about__text .btn {
   display: inline-block;

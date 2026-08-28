@@ -8,7 +8,7 @@ I am an Electrical & Computer Engineering student at Santa Clara University with
 
 ## 🌐 My Portfolio
 
-[Visit My Website →](https://afrailey-creator.github.io/)
+[Visit My Website →](https://afrailey-creator.github.io/myportfolio/)
 
 ## 🚀 Featured Project
 

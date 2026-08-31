@@ -620,3 +620,8 @@ body:not(.user-is-tabbing) a:focus {
 .vending-machine-project {
     margin-top: 20rem !important;
 }
+
+/* Space between smaller projects */
+#mini-projects .work__box + .work__box {
+    margin-top: 15rem;
+}

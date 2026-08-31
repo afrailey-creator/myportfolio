@@ -444,7 +444,7 @@ body:not(.user-is-tabbing) a:focus {
     gap: 8rem;
 }
 
-.work__box:not(:last-child) {
+.work__box + .work__box  { 
     margin-bottom: 20rem;
 }
 

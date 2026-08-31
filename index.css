@@ -622,6 +622,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* Space between smaller projects */
+
 #mini-projects .work__box + .work__box {
-    margin-top: 15rem;
+    margin-top: 20rem;
 }

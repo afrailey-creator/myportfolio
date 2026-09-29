@@ -626,3 +626,153 @@ body:not(.user-is-tabbing) a:focus {
 #mini-projects .work__box + .work__box {
     margin-top: 20rem;
 }
+
+/* ----- Current Projects ----- */
+
+.in-progress-badge {
+    display: inline-block;
+    margin-bottom: var(--gutter-small);
+    padding: .4rem 1.4rem;
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    font-family: 'Jost', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.work__role {
+    margin: -1rem 0 0;
+    color: var(--white);
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+}
+
+.work__summary {
+    max-width: 85rem;
+}
+
+.work__details {
+    max-width: 85rem;
+    margin-bottom: var(--gutter-normal);
+    padding-left: 2.2rem;
+}
+
+.work__details li {
+    margin-bottom: 1.2rem;
+}
+
+.work__details li::marker {
+    color: var(--pink);
+}
+
+/* Skill tags (applies to every project card) */
+.work__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+.work__list li {
+    padding: .4rem 1.4rem;
+    border: 1px solid rgba(240, 233, 242, .25);
+    border-radius: 999px;
+    font-size: 1.5rem;
+}
+
+/* ----- Organizations ----- */
+
+.org__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.org__card {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border: 1px solid rgba(240, 233, 242, .2);
+}
+
+.org__card h3 {
+    font-size: var(--font-size-medium);
+    margin-bottom: .8rem;
+}
+
+.org__role {
+    margin: 0;
+    color: var(--pink);
+    font-family: 'Jost', sans-serif;
+}
+
+.org__desc {
+    flex: 1;
+    margin: 1.5rem 0 2.5rem;
+}
+
+.org__card .link__text {
+    align-self: flex-start;
+}
+
+.org__showcase {
+    margin-top: var(--gutter-medium);
+    padding: 4rem;
+    border-left: 2px solid var(--pink);
+    background: rgba(240, 233, 242, .04);
+}
+
+.org__showcase h3 {
+    margin-bottom: 0;
+}
+
+.org__showcase p {
+    max-width: 70rem;
+}
+
+@media(max-width: 900px) {
+    .org__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .org__showcase {
+        padding: 3rem;
+    }
+}
+
+/* ----- Certifications ----- */
+
+.certs {
+    margin: var(--gutter-normal) 0 1rem;
+}
+
+.certs__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--pink);
+    margin-bottom: 1.2rem;
+}
+
+.certs__list {
+    list-style: none;
+}
+
+.certs__list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(240, 233, 242, .15);
+}
+
+.certs__status {
+    flex-shrink: 0;
+    font-size: 1.3rem;
+    color: var(--white-1);
+    opacity: .6;
+}

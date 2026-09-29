@@ -7,7 +7,7 @@
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
   <title>
-    Allyson Frailey | Electrical & Computer Engineering Student
+    Allyson Frailey | Electrical & Computer Engineering Major | Computer Science Engineering Minor
   </title>
 
   <meta name="description" content="Portfolio of Allyson Frailey, an ECE student at Santa Clara University focused on robotics, embedded systems, and aerospace.">
@@ -26,6 +26,7 @@
           <li class="nav__item"><a href="#work" class="nav__link">Current Projects</a></li>
           <li class="nav__item"><a href="#finished-work" class="nav__link">Work</a></li>
           <li class="nav__item"><a href="#mini-projects" class="nav__link">Smaller Projects</a></li>
+          <li class="nav__item"><a href="#Organizations" class="nav__link">Organizations</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -58,25 +59,30 @@
           <div class="work__box">
             <div class="work__text">
               <span class="in-progress-badge">In Progress</span>
-              <h3>Iris — Voice-Activated Household Messenger Hub</h3>
-              <p>
-                Starting soon — An ESP32-based shared voice assistant for the household. Anyone can speak their name along with a task or plan, then later ask what's on everyone's schedule for the day. Involves audio capture, speech-to-text integration, natural language parsing, persistent on-device storage, and a small display showing animated "eyes" that respond to device state.
+              <h3>RSL 6U CubeSat Biological Payload Program</h3>
+              <p class="work__role">
+                Electrical &amp; Computer Engineering Subteam · SCU Bronco Competitive Robotics Team
               </p>
+              <p class="work__summary">
+                Designing the power and communications subsystems for a 6U CubeSat that will carry a biological payload into low Earth orbit to study bacterial growth in microgravity for vaccine research. My work focuses on the subsystem architecture decisions the rest of the spacecraft depends on.
+              </p>
+              <ul class="work__details">
+                <li>Evaluating power and communications architecture against the mass, volume, and power limits of a 6U platform and the needs of the biological payload</li>
+                <li>Running trade studies on space-grade battery chemistries and solar panel technologies, comparing energy density, thermal performance, reliability, and flight heritage</li>
+                <li>Assessing communications protocols, including LoRa and radio beacons, for downlink reliability, power draw, and ground-station compatibility</li>
+                <li>Benchmarking against past capstone designs and published CubeSat missions to define subsystem requirements for hardware selection and fabrication</li>
+                <li>Earning SCU MakerLab, Robotic Systems Lab, and Dry Lab safety certifications to support hands-on CubeSat fabrication and testing</li>
+              </ul>
               <ul class="work__list">
-                <li>C++</li>
-                <li>ESP32</li>
-                <li>Embedded Systems</li>
-                <li>Audio/Signal Processing</li>
-                <li>Hardware/Software Integration</li>
+                <li>Power Systems</li>
+                <li>Energy Storage</li>
+                <li>Solar Power</li>
+                <li>RF Communications (LoRa)</li>
+                <li>Space Systems</li>
               </ul>
               <div class="work__links">
-                <a
-                  href="https://github.com/afrailey-creator/Iris-voice-bot"
-                  target="_blank"
-                  rel="noopener"
-                  class="link__text"
-                >
-                  View Project <span>&rarr;</span>
+                <a href="https://docs.google.com/presentation/d/1dCsO0iuWZOnoARz-33N9yMVoZWM7m0z0IBQ4XqGHo00/preview" target="_blank" rel="noopener" class="btn btn--pink">
+                  View Project Progress
                 </a>
               </div>
             </div>
@@ -236,6 +242,65 @@
   </div>
 </section>
 
+
+<!-- ***** Organizations ***** -->
+
+<section class="work" id="organizations">
+  <div class="row">
+    <h2>Organizations</h2>
+
+    <div class="org__grid">
+
+      <div class="org__card">
+        <h3>SCU Bronco Competitive Robotics Team</h3>
+        <p class="org__role">Electrical &amp; Computer Engineering Subteam</p>
+        <p class="org__desc">
+          Designing power and communications subsystems for the team's 6U CubeSat
+          biological payload mission.
+        </p>
+      </div>
+
+      <div class="org__card">
+        <h3>EM Lab Research Group</h3>
+        <p class="org__role">Undergraduate Researcher</p>
+        <p class="org__desc">
+          Lab Group focused on electromagnetic research, including antenna design, RF propagation, and wireless communication systems. Group is led by Professor Schab.
+        </p>
+      </div>
+
+      <div class="org__card">
+        <h3>IEEE</h3>
+        <p class="org__role">Student Member · SCU Student Branch</p>
+        <p class="org__desc">
+          Attending technical workshops, industry talks, and networking events across
+          electrical and computer engineering.
+        </p>
+      </div>
+
+      <div class="org__card">
+        <h3>Women in Electrical Engineering (WiEE)</h3>
+        <p class="org__role">Member</p>
+        <p class="org__desc">
+          Part of a community supporting women in electrical engineering through mentorship,
+          professional development, and technical events.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="org__showcase">
+      <h3>Engineering Development Log</h3>
+      <p>
+        An ongoing record of the technical skills, workshops, and hands-on work from my organizations and research, updated throughout the year.
+      </p>
+      <a href="https://docs.google.com/presentation/d/1PyfH-77T0z8pMp4g9SmskaELtR4wyyGtSZGSjowukYc/preview" target="_blank" rel="noopener" class="btn btn--pink">
+        View Learning Log
+      </a>
+    </div>
+  </div>
+</section>
+
+
     <!-- ***** About ***** -->
 
     <section class="about" id="about">
@@ -244,11 +309,19 @@
         <div class="about__content">
           <div class="about__text">
             <p>
-              I'm an Electrical & Computer Engineering student at Santa Clara University, with a minor in Computer Science Engineering. I was previously a Division 1 Beach Volleyball player at SCU. I am currently taking courses teaching me how to use Electrical Circuits and Microcontrollers. I have a passion for robotics and aerospace and can't wait to learn more throughout my 3rd year at Santa Clara.
+              I'm an Electrical &amp; Computer Engineering student at Santa Clara University with a minor in Computer Science &amp; Engineering, and a former Division I Beach Volleyball athlete at SCU. I'm drawn to aerospace and defense systems, where hardware has to work reliably in demanding environments. My work spans digital logic, embedded systems, and power and communications design, and I'm currently applying it to spacecraft through SCU's 6U CubeSat program.
             </p>
             <p>
               Outside of engineering, I'm usually planning my next trip, hiking a mountain, or picking up a new hobby. I love music, reading, and finding new gluten free recipes to try.
             </p>
+            <div class="certs">
+              <h4 class="certs__title">Certifications &amp; Training</h4>
+              <ul class="certs__list">
+                <li>SCU MakerLab Certification <span class="certs__status">In Progress</span></li>
+                <li>Robotic Systems Lab Safety Certification <span class="certs__status">In Progress</span></li>
+                <li>Dry Lab Safety Certification <span class="certs__status">In Progress</span></li>
+              </ul>
+            </div>
             <a href="https://www.canva.com/design/DAGtNY-W-mU/TdaGNfFsi_9VHb0YkNXvOQ/view"
                 class="btn"
                 target="_blank"

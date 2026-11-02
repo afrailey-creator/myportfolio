@@ -64,20 +64,23 @@
                 Electrical &amp; Computer Engineering Subteam · SCU Bronco Robotics Development Team
               </p>
               <p class="work__summary">
-                Researching the power and communications subsystems for a 6U CubeSat that will carry a biological payload into low Earth orbit to study bacterial growth in microgravity for vaccine research. My work focuses on the subsystem architecture decisions the rest of the spacecraft depends on.
+                Researching the bus communications system (radio and antenna) for a 6U CubeSat that will carry a biological payload into low Earth orbit to study bacterial growth in microgravity for vaccine research. The project is in the research and evaluation phase, and no final radio or antenna has been selected.
               </p>
               <ul class="work__details">
-                <li>Evaluating power and communications architecture against the mass, volume, and power limits of a 6U platform and the needs of the biological payload</li>
-                <li>Running trade studies on space-grade battery chemistries and solar panel technologies, comparing energy density, thermal performance, reliability, and flight heritage</li>
-                <li>Assessing communications protocols, including LoRa and radio beacons, for downlink reliability, power draw, and ground-station compatibility</li>
-                <li>Benchmarking against past capstone designs and published CubeSat missions to define subsystem requirements for hardware selection and fabrication</li>
-                <li>Earning SCU MakerLab, Robotic Systems Lab, and Dry Lab safety certifications to support hands-on CubeSat fabrication and testing</li>
+                <li>Evaluated OpenLST, an open-source UHF radio based on Planet's design used on over 200 satellites, as a candidate; reviewed its bill of materials and found two discontinued parts (RF amplifier and SAW filter) that block building it as designed, then identified a candidate replacement filter</li>
+                <li>Built a single-board prototype cost estimate of about $85&ndash;90 in parts, with sourcing links and plain-language notes so non-electrical teammates could follow it</li>
+                <li>Clarified the planned operating frequency (about 437 MHz in the 435&ndash;438 MHz amateur-satellite band) and flagged a candidate 868/915 MHz LoRa module as outside that band</li>
+                <li>Researched deployable UHF antennas and gave the Mechanical team envelope estimates (about 17 cm elements, 98 &times; 98 mm stowed module, 85&ndash;115 g), recommending an off-the-shelf module with a built-in deployer as the lower-complexity option</li>
+                <li>Recommended bench testing with a 70 cm-band antenna or dummy load rather than a 2.4 GHz antenna, to avoid damaging the radio's amplifier</li>
+                <li>Built a team reference sheet on the comms system and organized open questions for our faculty advisor on ground station access, licensing, and frequency coordination</li>
+                <li>Compared battery chemistries and solar panel options for the power subsystem against 6U platform limits and past CubeSat missions</li>
               </ul>
               <ul class="work__list">
-                <li>Power Systems</li>
-                <li>Energy Storage</li>
-                <li>Solar Power</li>
-                <li>RF Communications (LoRa)</li>
+                <li>UHF Radio</li>
+                <li>Antennas</li>
+                <li>BOM Review</li>
+                <li>Component Obsolescence</li>
+                <li>Cost Estimation</li>
                 <li>Space Systems</li>
               </ul>
               <div class="work__links">
@@ -205,7 +208,7 @@
         <h3>SCU Bronco Robotics Development Team</h3>
         <p class="org__role">Electrical &amp; Computer Engineering Subteam</p>
         <p class="org__desc">
-          Researching power and communications subsystems for the team's 6U CubeSat
+          Researching the radio and antenna system for the team's 6U CubeSat
           biological payload mission.
         </p>
       </div>
@@ -248,6 +251,8 @@
     <h2>Certifications</h2>
 
     <ul class="certs__list">
+      <li>LiPo Battery Training &middot; Robotic Systems Lab <span class="certs__status">Completed</span></li>
+      <li>FCC Amateur Radio Technician License <span class="certs__status">Studying</span></li>
       <li>SCU MakerLab Certification <span class="certs__status">In Progress</span></li>
       <li>Robotic Systems Lab Safety Certification <span class="certs__status">In Progress</span></li>
       <li>Dry Lab Safety Certification <span class="certs__status">In Progress</span></li>

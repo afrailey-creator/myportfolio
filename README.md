@@ -1,42 +1,29 @@
 # Allyson Frailey
 
-## Electrical & Computer Engineering Student
+Electrical & Computer Engineering student at Santa Clara University (expected May 2028), minor in Computer Science & Engineering. Focused on hands-on spacecraft electronics, with an interest in radio communications and aerospace and defense hardware.
 
-Welcome to my personal portfolio website.
+Seeking Summer 2027 hardware engineering internships.
 
-I am an Electrical & Computer Engineering student at Santa Clara University with a minor in Computer Science Engineering. I am interested in robotics, embedded systems, aerospace, and spacecraft systems.
+**[View my portfolio →](https://afrailey-creator.github.io/myportfolio/)**
 
-## 🌐 My Portfolio
+## Current Work
 
-[Visit My Website →](https://afrailey-creator.github.io/myportfolio/)
+**RSL 6U CubeSat Biological Payload Program:** Researching the radio and antenna system for a CubeSat that will study bacterial growth in microgravity, as part of the SCU Bronco Robotics Development Team. Work so far includes evaluating candidate UHF radios, reviewing a bill of materials for discontinued parts, and giving the Mechanical team antenna size and mass estimates. The project is in the research and evaluation phase.
 
-## 🚀 Featured Project
+## Projects
 
-### RSL 6U CubeSat Biological Payload Program
+- **[FPGA Traffic Metering Controller](https://github.com/afrailey-creator/FPGA-Traffic-Light-Controller):** Three-lane controller in Verilog, simulated in Quartus and run on an Intel DE2-115 FPGA
+- **[Vending Machine FSM Controller](https://github.com/afrailey-creator/FPGA-Coffee-Vending-Machine):** Moore state machine built two independent ways and verified in RTL simulation
 
-Researching power and communications subsystems for a 6U CubeSat that will carry a biological payload to study bacterial growth in microgravity, as part of the SCU Bronco Robotics Development Team.
+## Interests
 
-## 🛠️ Technical Interests
-
+- Spacecraft electronics
+- RF and radio communications
+- Hardware test and integration
+- Embedded systems
 - Robotics
-- Embedded Systems
-- Aerospace
-- Spacecraft Systems
-- Sensor Fusion
-- Computer Engineering
-- Software Engineering
 
-## 🎓 Education
+## Contact
 
-**Santa Clara University**
-
-Electrical & Computer Engineering  
-Minor in Computer Science Engineering
-
-## 📫 Contact
-
-Email: allyfrailey6@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/allyfrailey/
-
-GitHub: https://github.com/afrailey-creator/
+- Email: allyfrailey6@gmail.com
+- LinkedIn: https://www.linkedin.com/in/allyfrailey/

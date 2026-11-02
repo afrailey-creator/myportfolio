@@ -12,17 +12,9 @@ I am an Electrical & Computer Engineering student at Santa Clara University with
 
 ## 🚀 Featured Project
 
-### IMU-Based Attitude Determination System
+### RSL 6U CubeSat Biological Payload Program
 
-Currently building an ESP32 and MPU6050 IMU sensor fusion project to determine real-time orientation, inspired by spacecraft attitude determination systems.
-
-### Technologies
-
-- C++
-- ESP32
-- MPU6050
-- Sensor Fusion
-- Embedded Systems
+Researching power and communications subsystems for a 6U CubeSat that will carry a biological payload to study bacterial growth in microgravity, as part of the SCU Bronco Robotics Development Team.
 
 ## 🛠️ Technical Interests
 

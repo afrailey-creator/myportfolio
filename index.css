@@ -628,8 +628,9 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* Space between Work projects */
-.vending-machine-project {
-    margin-top: 20rem !important;
+#finished-work .work__box + .work__box {
+    margin-top: 20rem;
+    margin-bottom: 0;
 }
 
 /* ----- Current Projects ----- */

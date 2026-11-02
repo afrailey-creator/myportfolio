@@ -632,12 +632,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 20rem !important;
 }
 
-/* Space between smaller projects */
-
-#mini-projects .work__box + .work__box {
-    margin-top: 20rem;
-}
-
 /* ----- Current Projects ----- */
 
 .in-progress-badge {
